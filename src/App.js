@@ -1,17 +1,17 @@
 import './App.css';
 import React from 'react'
 import Bio from "./Bio"
-import Resume from "./resume"
+import Resume from "./Resume"
 import Skills from "./Skills"
+import Nav from "./Nav"
+import { Switch, Route} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
+        <Nav />
      <Switch>
        <Route exact path= "/">
-        <Nav />
-       </Route>
-       <Route exact path= "/bio">
         <Bio />
        </Route>
        <Route exact path= "/resume">
