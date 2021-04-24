@@ -41,7 +41,7 @@ function Nav() {
 
     return(
         <>
-        <div class="overlay-navigation">
+        <div className="overlay-navigation">
   <nav role="navigation">
     <ul>
       <li><a href="#" >About</a></li>
@@ -53,11 +53,11 @@ function Nav() {
   </nav>
 </div>
 
-<section class="home">
-  <div class="open-overlay">
-    <span class="bar-top"></span>
-    <span class="bar-middle"></span>
-    <span class="bar-bottom"></span>
+<section className="home">
+  <div className="open-overlay">
+    <span className="bar-top"></span>
+    <span className="bar-middle"></span>
+    <span className="bar-bottom"></span>
   </div>
 </section>
 </>
