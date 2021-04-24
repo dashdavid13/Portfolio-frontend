@@ -8,8 +8,8 @@
   margin-left: auto;
   margin-right: auto;
   width:45%;
-  position: relative;
-  top: 200%;
+  position:relative;
+   top: -800px;
 }
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:400,300,700|Open+Sans:400italic,300italic);
 body {

@@ -1,5 +1,6 @@
 import React from 'react'
 import $ from 'jquery'; 
+import { NavLink, Link } from "react-router-dom";
 
 $('.open-overlay').click(function() {
     var overlay_navigation = $('.overlay-navigation'),
@@ -36,19 +37,20 @@ $('.open-overlay').click(function() {
       nav_item_5.removeClass('slide-in-nav-item-delay-4').addClass('slide-in-nav-item-delay-4-reverse');
     }
   })
+
 function Nav() {
-    
+ 
 
     return(
         <>
         <div className="overlay-navigation">
   <nav role="navigation">
     <ul>
-      <li><a href="#" >About</a></li>
-      <li><a href="#" >Resume</a></li>
-      <li><a href="#" >Skills</a></li>
-      <li><a href="#" >Projects</a></li>
-      <li><a href="#" >Contact</a></li>
+      <li><NavLink exact to="/" ><a href="#" >About</a></NavLink></li>
+      <li><NavLink exact to= "/resume"> <a href="#" >Resume</a></NavLink></li>
+      <li><NavLink exact to= "/skills"><a href="#" >Skills</a></NavLink></li>
+      <li><NavLink exact to= "/projects"><a href="#" >Projects</a></NavLink></li>
+      <li><NavLink exact to= "/contact"><a href="#" >Contact</a></NavLink></li>
     </ul>
   </nav>
 </div>
@@ -61,6 +63,7 @@ function Nav() {
   </div>
 </section>
 </>
+           
     )
 }
 
