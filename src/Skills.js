@@ -1,6 +1,7 @@
 import React from 'react'
 import $ from 'jquery'
-
+import cert1 from './info/fcert.jpg';
+import cert2 from './info/code.jpeg';
 
 
 
@@ -107,8 +108,8 @@ function Skills() {
 
         <div className="cert">
             <h1>Certifications</h1>
-            <img />
-            <img />
+            <img src={cert1} alt="Flatiron Certification"/>
+            <img src={cert2} alt="Codecademy Certification"/>
         </div>
 </>
 
