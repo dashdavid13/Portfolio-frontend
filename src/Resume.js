@@ -13,7 +13,7 @@ function Resume() {
 
   return (
     <div>
-      <img src={resume} className="resume" />
+      <img src={resume} className="resume" alt="resume" />
       {/* <Document
         className="resume"
         file={resume}
