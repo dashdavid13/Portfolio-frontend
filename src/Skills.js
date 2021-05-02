@@ -108,8 +108,8 @@ function Skills() {
 
         <div className="cert">
             <h1>Certifications</h1>
-            <img src={cert1} alt="Flatiron Certification"/>
-            <img src={cert2} alt="Codecademy Certification"/>
+            <img className="certs" src={cert1} alt="Flatiron Certification"/>
+            <img className="certs" src={cert2} alt="Codecademy Certification"/>
         </div>
 </>
 
