@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 
 
 
+
 $('.open-overlay').click(function() {
   var overlay_navigation = $('.overlay-navigation'),
     nav_item_1 = $('nav li:nth-of-type(1)'),
@@ -39,7 +40,6 @@ $('.open-overlay').click(function() {
     nav_item_5.removeClass('slide-in-nav-item-delay-4').addClass('slide-in-nav-item-delay-4-reverse');
   }
 }) 
-
 
     
 
